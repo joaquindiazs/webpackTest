@@ -1,4 +1,4 @@
-//defining global function with improved console.log
-module.exports = function(message) {
-	console.log(new Date(Date.now()), " - ", message);
-};
+//export as a regular ES6 module and as an arrow function
+export default (message) =>{
+    console.log(new Date(Date.now()), " - ", message);
+}
