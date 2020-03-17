@@ -1,3 +1,5 @@
+var Logger = require('./logger.js');
+
 //update content of greeting element when DOM has been loaded
 (function(){
     document.addEventListener('DOMContentLoaded', function(){
